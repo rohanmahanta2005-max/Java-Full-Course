@@ -9,7 +9,7 @@ public class fibo {
         int n = sc.nextInt();
         int a=0;
         int b = 1;
-        int sum;
+        int sum=0;
 
         for(int i=1; i<=n; i++){
             System.out.println(a);
