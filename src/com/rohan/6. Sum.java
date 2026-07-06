@@ -1,3 +1,5 @@
+package com.rohan;
+
 import java.util.Scanner;
 
  class Sum {
@@ -11,7 +13,7 @@ import java.util.Scanner;
         int b = input.nextInt();
         int sum = a+b;
 
-        System.out.print("Sum of 2 numbers: " +  sum);
+        System.out.print("com.rohan.Sum of 2 numbers: " +  sum);
 
     }
 }

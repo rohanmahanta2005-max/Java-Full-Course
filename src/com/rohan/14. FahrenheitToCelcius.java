@@ -1,3 +1,5 @@
+package com.rohan;
+
 import java.util.Scanner;
 
 class FahrenheitToCelcius {
