@@ -19,7 +19,6 @@ public class Sum {
         int num2 = input.nextInt();
         return num1+num2;
     }
-    
 }
 
 
