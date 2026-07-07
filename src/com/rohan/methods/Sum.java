@@ -1,3 +1,5 @@
+package com.rohan.methods;
+
 import java.util.Scanner;
 
 public class Sum {
