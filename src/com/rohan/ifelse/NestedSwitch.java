@@ -1,4 +1,4 @@
-package com.rohan;
+package com.rohan.ifelse;
 
 import java.util.Scanner;
 

@@ -1,10 +1,10 @@
-package com.rohan;
+package com.rohan.basic;
 
 import java.util.Scanner;
 
 class Perimeter{
     public static void main(String[] args) {
-        System.out.println("com.rohan.Perimeter of A REctangle");
+        System.out.println("com.rohan.basic.Perimeter of A REctangle");
         Scanner input = new Scanner(System.in);
         System.out.print("Enter A: ");
         int A = input.nextInt();

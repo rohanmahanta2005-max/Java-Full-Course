@@ -1,4 +1,4 @@
-package com.rohan;
+package com.rohan.basic;
 
 class Pattern {
     public static void main(String[] args){

@@ -1,10 +1,10 @@
-package com.rohan;
+package com.rohan.basic;
 
 import java.util.Scanner;
 
 class Arithmatic {
     public static void main(String[] args) {
-        System.out.println("Welcome to com.rohan.Arithmatic calculator");
+        System.out.println("Welcome to com.rohan.basic.Arithmatic calculator");
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a: ");
                 float a = input.nextFloat();

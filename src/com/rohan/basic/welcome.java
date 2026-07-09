@@ -1,4 +1,4 @@
-package com.rohan;
+package com.rohan.basic;
 
 import java.util.Scanner;
 

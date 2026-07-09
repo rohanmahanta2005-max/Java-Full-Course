@@ -1,8 +1,8 @@
-package com.rohan;
+package com.rohan.basic;
 
 import java.util.Scanner;
 
-class CompoundInterest {
+class SimpleInterest {
     public static void main(String[] args) {
         System.out.println("Simple Interest Calculation");
         Scanner input  = new Scanner(System.in);
@@ -10,13 +10,13 @@ class CompoundInterest {
         int P = input.nextInt();
 
         System.out.print("Enter R: ");
-        Float R = input.nextFloat();
+        float R = input.nextFloat();
 
         System.out.print("Enter T: ");
-        Float T = input.nextFloat();
+        float T = input.nextFloat();
 
-        Double SimpleInterest = P*Math.pow((1+R/100),T);
+        float SimpleInterest = (P*R*T)/100;
 
-        System.out.println("Calculated Compound Interest: Rs." + SimpleInterest);
+        System.out.println("Calculated Simple Interest: Rs." + SimpleInterest);
     }
 }
