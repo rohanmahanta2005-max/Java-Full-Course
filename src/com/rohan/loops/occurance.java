@@ -1,4 +1,4 @@
-package com.rohan;
+package com.rohan.loops;
 
 import java.util.Scanner;
 
