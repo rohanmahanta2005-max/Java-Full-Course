@@ -3,6 +3,7 @@ package com.rohan.array;
 public class Sorted {
     public static void main(String[] args){
         int[] arr = ArrayUtility.inputArray();
+        System.out.println("Sorted checking...");
       boolean increase = isIncreasing(arr);
       boolean decrease = isDecreasing(arr);
       if(increase || decrease){
@@ -13,7 +14,7 @@ public class Sorted {
       }
 
     } {
-        System.out.println("Sorted checking...");
+
 
 
     }
