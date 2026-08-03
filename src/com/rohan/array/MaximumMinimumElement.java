@@ -2,7 +2,7 @@ package com.rohan.array;
 
 public class MaximumMinimumElement {
     public static void main(String[] args) {
-        System.out.println("Maximum and Minimum Element finding...");
+        System.out.println("Maximum and Minimum Element Searching...");
         int[] arr = ArrayUtility.inputArray();
         int max = max(arr);
         int min = min(arr);
@@ -29,7 +29,7 @@ public class MaximumMinimumElement {
         int max = arr[0];
         int i = 1;
         while(i < arr.length){
-            if(max<arr[i]){
+            if(max < arr[i]){
                 max = arr[i];
             }
             i++;

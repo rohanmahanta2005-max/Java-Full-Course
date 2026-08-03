@@ -31,7 +31,7 @@ public class ArrayUtility {
         while(i < rows){
             int j = 0;
             while(j<columns) {
-                System.out.print("Enter enter element rows: " +(i+1)
+                System.out.print("Enter element rows: " +(i+1)
                         + ", columns: " +(j+1) + " element" + " : " );
                 arr[i][j] = sc.nextInt();
                 j++;

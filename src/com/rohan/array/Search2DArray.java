@@ -21,9 +21,9 @@ public class Search2DArray {
     }
     public static boolean search(int[][] Arr, int n){
         int i=0;
-        while(i<Arr.length){
+        while(i < Arr.length){
             int j=0;
-            while(j<Arr[i].length){
+            while(j < Arr[i].length){
                 if(Arr[i][j] == n){
                     return true;
                 }
