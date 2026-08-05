@@ -15,6 +15,7 @@ public class BinaryTriangle {
                 }
             }
             System.out.println();
+
         }
     }
 }
