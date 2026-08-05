@@ -5,7 +5,7 @@ public class HollowRectangle {
         System.out.print("Enter rows: ");
         int m = input.num();
         System.out.print("Enter columns: ");
-        int n = input.num();
+        int n = input.num();    //
 
         for(int i=1; i<=m; i++){
             for(int j=1; j<=n; j++){
