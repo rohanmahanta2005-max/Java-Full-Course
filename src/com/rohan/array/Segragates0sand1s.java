@@ -1,3 +1,5 @@
+package com.rohan.array;
+
 public class Segragates0sand1s {
     public static void main(String[] args){
         System.out.println("Segragate zeros to the left and ones to the right");

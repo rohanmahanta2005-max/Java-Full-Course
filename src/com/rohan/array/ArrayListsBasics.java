@@ -10,6 +10,11 @@ public class ArrayListsBasics {
         arr.add(18);   // index 2
         arr.add(5);     //index 3
         arr.add(10);    //index 4
+
+        arr.add(1,18);
+        System.out.println("this is: " +arr);        // interchange element of index 1 with index 2
+
+
         System.out.println(arr.get(3));  // instead of arr[2]
         arr.set(3,50);  // arr[3] = 50
 
@@ -31,6 +36,9 @@ public class ArrayListsBasics {
 
         arr.remove(arr.size()-1);  //used to remove the last element of the array
         System.out.println(arr);
+
+        arr.clear();                          // this is used to clear the arraylist
+        System.out.println("this: " + arr);
 
         int i=0; int j = arr.size()-1;
         while(i<j){
