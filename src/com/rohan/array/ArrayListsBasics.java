@@ -51,6 +51,9 @@ public class ArrayListsBasics {
 
 
        // Collections.reverse(arr);   // used to reverse an arraylist
+        // Collections.sort(arr);    // used to sort an arrayList
+
+
         System.out.print(arr);
         ArrayList<Character> arr2 = new ArrayList<>();
         ArrayList<String> arr3 = new ArrayList<>();
