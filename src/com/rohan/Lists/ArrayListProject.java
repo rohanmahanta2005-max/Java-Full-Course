@@ -1,4 +1,4 @@
-package com.rohan.array;
+package com.rohan.Lists;
 
 import java.util.Scanner;
 import java.util.ArrayList;

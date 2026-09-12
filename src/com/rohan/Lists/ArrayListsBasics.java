@@ -1,6 +1,5 @@
-package com.rohan.array;
+package com.rohan.Lists;
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class ArrayListsBasics {
     public static void main(String[] args) {
