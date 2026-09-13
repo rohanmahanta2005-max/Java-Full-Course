@@ -1,15 +1,17 @@
 package com.rohan.Lists;
+import java.util.Scanner;
 
-class Node{
-    int data;
-    Node next;
-    Node(int data){
-        this.data = data;
-        this.next = null;
+
+
+public class SingleLinkedList {
+    static class Node{
+        int data;
+        Node next;
+        Node(int data){
+            this.data = data;
+            this.next = null;
+        }
     }
-}
-
-class MyLinkedList {
     Node head;
 
     void add(int data) {
@@ -37,19 +39,21 @@ class MyLinkedList {
             System.out.println("null");
         }
 
-
-    }
-    public class SingleLinkedList{
     public static void main(String[] args) {
-        MyLinkedList list = new MyLinkedList();
-        list.add(10);
-        list.add(20);
-        list.add(30);
-        list.add(40);
+        SingleLinkedList list = new SingleLinkedList();
+        Scanner sc  = new Scanner(System.in);
+        System.out.print("Enter number of nodes: ");
+        int n = sc.nextInt();
 
+        for(int i = 1; i<=n; i++){
+            System.out.print("Enter node "+ i + " value: ");
+            list.add(sc.nextInt());
+        }
         list.PrintList();
-     }
     }
+
+    }
+
 
 
 
