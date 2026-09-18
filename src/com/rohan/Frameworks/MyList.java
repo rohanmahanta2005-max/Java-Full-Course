@@ -1,4 +1,4 @@
-package com.rohan.Lists;
+package com.rohan.Frameworks;
 import java.util.LinkedList;
 public class MyList {
     public static void main(String[] args) {

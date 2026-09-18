@@ -1,4 +1,4 @@
-package com.rohan.Lists;
+package com.rohan.Frameworks;
 import java.util.ArrayList;
 
 public class ArrayListsBasics {
